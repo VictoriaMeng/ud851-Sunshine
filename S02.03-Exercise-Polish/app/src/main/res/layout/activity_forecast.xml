@@ -39,5 +39,17 @@
     <!--TODO (13) Make the width and height of the ProgressBar 42dp-->
     <!--TODO (14) Set the layout_gravity of the ProgressBar to center-->
     <!--TODO (15) Set the default visibility of the ProgressBar to invisible-->
+    <TextView
+        android:id="@+id/tv_error_message_display"
+        android:visibility="invisible"
+        android:text="@string/error_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
 
+    <ProgressBar
+        android:id="@+id/pb_loading_indicator"
+        android:visibility="invisible"
+        android:layout_gravity="center"
+        android:layout_width="42dp"
+        android:layout_height="42dp" />
 </FrameLayout>
